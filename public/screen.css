@@ -25,7 +25,7 @@ main{
 
 /* Custom */
 header{
-  background-color: rgba(0, 26, 98, 0.968);
+  background-color: rgba(0, 26, 98, 0.991);
   color: white;
   margin-top: 0;
   padding: 2rem;
@@ -41,6 +41,8 @@ header{
   margin: 1rem 2rem;
   border-radius: 3px;
   border: 0;
+  font-size: calc(1.5vh + 1.5vw);
+  color: rgb(1, 1, 90);
 }
 
 .hand-down{
