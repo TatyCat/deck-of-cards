@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1;
 }
 
 html {
@@ -9,4 +9,43 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  min-width: 100%;
+  background-image: url("images/milky-way-2750627.jpg");
+  position: fixed;
+  background-repeat: none;
+  font-family: 'Righteous', sans-serif;
+}
+
+main{
+  margin: 3rem 1rem; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Custom */
+header{
+  background-color: rgba(0, 26, 98, 0.968);
+  color: white;
+  margin-top: 0;
+  padding: 2rem;
+  letter-spacing: .6ch;
+  font-size: calc(.5vw + 1.5vh);
+}
+
+.hand-up, .hand-down{
+  background-color: rgba(240, 248, 255, 0.95);
+  padding: 1rem;
+  height: 18rem;
+  width: 12rem;
+  margin: 1rem 2rem;
+  border-radius: 3px;
+  border: 0;
+}
+
+.hand-down{
+  text-align: center;
+  font-family: sans-serif;  
+  height: 18rem;
+  width: 12rem;
 }
